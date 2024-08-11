@@ -29,7 +29,7 @@ main {
 }
 
 .contents {
-    border: solid 3px rgb(238,204,204);
+    border: solid 3px rgb(238, 204, 204);
     flex-basis: 25%;
     padding: 10px 15px 10px 15px;
     margin: 20px 0px 20px 0px;
@@ -43,17 +43,17 @@ main {
 
 .contents p:nth-of-type(2)::first-letter {
     font-weight: bold;
-    color: rgb(97,206,249);
+    color: rgb(97, 206, 249);
 }
 
 h2 {
     font-size: 25px;
-    border-bottom: 3px dotted rgb(236,122,122);
+    border-bottom: 3px dotted rgb(236, 122, 122);
 }
 
 h2::before {
     content: "●";
-    color: rgb(239,111,139);
+    color: rgb(239, 111, 139);
 }
 
 footer {
@@ -62,26 +62,27 @@ footer {
 }
 
 a {
-    color: rgb(255,255,255,);
+    font-size: 20px;
+    color: rgb(255, 255, 255, );
 
 }
 
 a:visited {
-    color: rgb(193,234,251);
+    color: rgb(193, 234, 251);
 }
 
 a:hover {
-    color: rgb(245,178,168);
+    color: rgb(245, 178, 168);
 }
- 
+
 @media screen and (max-width: 768px) {
-    
+
     h2 {
         font-size: 30px;
     }
 
     p {
-font-size: 25px;
+        font-size: 25px;
     }
 
     #parent {
@@ -89,5 +90,3 @@ font-size: 25px;
         flex-direction: column;
     }
 }
-
-
